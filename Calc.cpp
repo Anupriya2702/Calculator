@@ -3,7 +3,12 @@
 
 using namespace std;
 
+Add(a,b)
+{
+	
+return a+b;
 
+}
 int main(){
 
 
@@ -14,7 +19,7 @@ int main(){
     cin>>choice;
 
     if(choice==1){
-        //Add logic comes over here
+        add(a,b);
     }
     else if(choice==2){
         sub(a,b);
