@@ -3,9 +3,9 @@
 
 using namespace std;
 
-Add(a,b)
+int add(int a,int b)
 {
-	
+
 return a+b;
 
 }
@@ -19,16 +19,16 @@ int main(){
     cin>>choice;
 
     if(choice==1){
-        add(a,b);
+        cout<<add(a,b);
     }
     else if(choice==2){
-        sub(a,b);
+        //sub(a,b);
     }
     else if(choice==3){
-        div(a,b);
+        //div(a,b);
     }
     else{
-        mul(a,b);
+        //mul(a,b);
     }
 
 }
